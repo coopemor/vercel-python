@@ -1,7 +1,7 @@
 import os, sys
 from http.server import BaseHTTPRequestHandler
 from cowpy import cow
-from Pillow import Image, ImageChops, ImageEnhance
+from PIL import Image, ImageChops, ImageEnhance
 
 class handler(BaseHTTPRequestHandler):
 
